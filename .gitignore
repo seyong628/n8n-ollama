@@ -1,0 +1,24 @@
+# 환경 변수 파일 (민감한 정보 포함 가능)
+.env
+.env.local
+.env.*.local
+
+# n8n 로컬 데이터 (볼륨으로 관리)
+n8n_data/
+
+# Docker 관련
+.docker/
+
+# 에디터
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# 로그
+*.log
+logs/
